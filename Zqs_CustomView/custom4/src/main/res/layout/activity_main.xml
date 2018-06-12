@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.zqs.custom4.MainActivity"
+    android:orientation="vertical">
+
+    <com.zqs.custom4.CustomVolumControlBar
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="20dp"
+        app:circleWidth="10dp"
+        app:firstColor="@android:color/black"
+        app:secondColor="@android:color/white"
+        app:dotCount="10"
+        app:splitSize="20"
+        app:bg="@mipmap/ic_launcher"/>
+
+    <com.zqs.custom4.CustomVolumControlBar
+        android:layout_width="100dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="20dp"
+        app:circleWidth="10dp"
+        app:firstColor="@android:color/black"
+        app:secondColor="@android:color/white"
+        app:dotCount="10"
+        app:splitSize="20"
+        app:bg="@mipmap/ic_launcher"/>
+
+</LinearLayout>
